@@ -240,7 +240,8 @@
 #define HRT_TIMER_CHANNEL            1 // use capture/compare channel 1
 
 #define HRT_PPM_CHANNEL              3 // capture/compare channel 3
-#define GPIO_PPM_IN                  (GPIO_ALT|GPIO_AF2|GPIO_PULLUP|GPIO_PORTB|GPIO_PIN8)
+// #define GPIO_PPM_IN                  (GPIO_ALT|GPIO_AF2|GPIO_PULLUP|GPIO_PORTB|GPIO_PIN8)
+#define GPIO_PPM_IN                  (GPIO_ALT|GPIO_AF2|GPIO_PULLUP|GPIO_PORTA|GPIO_PIN8)
 
 #define RC_SERIAL_PORT               "/dev/ttyS0"
 
